@@ -1,0 +1,32 @@
+.form{
+    background-color: var(--dark-purple); 
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px; /* Space between grid items */
+    padding: 55px;
+
+    &_title{
+        padding: 80px;
+        align-self: center;
+        font: var(--font-h2);
+        color: var(--light-neutral-purple);
+        text-align: left;
+    }
+
+    &_container{
+        padding: 0px 100px;
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        gap: 30px;
+        align-items: flex-start;
+        justify-content: center;
+
+        &-input{
+            font: var(--font-text);
+            color: var(--light-neutral-purple);
+            display: flex;
+            gap: 20px;
+        }
+    }
+}

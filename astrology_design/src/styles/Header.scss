@@ -1,0 +1,24 @@
+.header{
+    display: flex;
+    align-items: baseline;
+    justify-content: space-between;
+    padding: 50px 40px;
+    background-color: var(--light-bg-color);
+
+    &_title{
+        font: var(--font-h1);
+        color: var(--main-text-color);
+    }
+
+    &_menu{
+        display: flex;
+        gap: 15px;
+
+        &-link{
+            text-decoration: none;
+            color: var(--main-text-color);
+            font: var(--font-text);
+        }
+    }
+
+}

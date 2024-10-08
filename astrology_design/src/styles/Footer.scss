@@ -1,0 +1,39 @@
+.footer{
+    padding: 40px 100px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: var(--light-bg-color);
+
+    &_logo{
+
+        &-logo{
+            height: 150px;
+        }
+    }
+
+    &_sections{
+        list-style: none;
+        padding: 0;
+        text-align: left;
+
+        &-link{
+            text-decoration: none;
+            font: var(--font-links);
+            color: var(--main-text-color);
+        }
+        
+    }
+
+    &_socials{
+        list-style: none;
+        padding: 0;
+        text-align: left;
+
+        &_link{
+            text-decoration: none;
+            font: var(--font-links);
+            color: var(--main-text-color);
+        }
+    }
+}
